@@ -9,26 +9,68 @@ nav:
     title: "Informazioni"
   exchanges:
     title: "Ottieni Verge"
+  vendors:
+    title: "Venditori"
   wallets:
     title: "Portafoglio"
   roadmap:
     title: "Road Map"
+  faq:
+    title: "FAQ"
+  p2p:
+    title: "Soluzioni P2P"
+  developers:
+    title: "Sviluppatori"
+  contributors:
+    title: "Contribuisci"
+  donate:
+    title: "Dona"
   community:
     title: "Comunità"
+  social:
+    title: "Social"
+  blog:
+    title: "blog"
 tagline: "Verge è una valuta digitale <strong>sicura</strong> e <strong>anonima</strong>, costruita con uno speciale focus sulla <strong>privacy</strong>."
+intro_button: "Guarda Video Introduttivo"
+close: "Chiudi"
 download: "Download"
-view: "View"
-view_all_wallets: "View All Wallets"
+view: "Vedi"
+view_all_wallets: "Vedi tutti i Portafogli"
+contest_enter: "Entra per poter vincere 70,000 Verge"
+mission:
+  header: "Mission Statement"
+  paragraph: "La nostra missione è di dare potere alle persone portando le transazioni tramite blockchain nella vita di ogni giorno. La valuta Verge rende possibile effettuare transazioni dirette in modo veloce, efficiente e nel rispetto della privacy. Con Verge, individui e organizzationi hanno un'opzione flessibile per inviare e ricevere pagamenti. Schiacciando un bottone, offriamo utili integrazioni e strumenti che possano permettano di gestire transazioni sia su grande scala tra commercianti che su piccola scala tra privati."
 info:
   about:
     header: "Perchè Verge?"
     paragraph: "Verge è una valuta digitale decentralizzata progettata per gli utenti che apprezzano la riservatezza. Verge migliora l'originale Blockchain Bitcoin utilizzando più reti più anonime come Tor e i2p. Verge utilizza un supporto multi-algoritmo di data mining per migliorare la sicurezza e offrire un'equa distribuzione di monete per i minatori."
+cards:
+      privacy:
+        header: "Completamente anonimo e focalizzato sulla privacy"
+        paragraph: "Verge uses multiple anonymity-centric networks such as Tor and I2P. The IP addresses of the users are obfuscated and the transactions are completely untraceable."
+      community:
+        header: "Great support from community"
+        paragraph: "Verge is not a private company funded by pre-mined coins or ICO's. All of the development and marketing is supported by the thousands of members of the community."
+      speed:
+        header: "Ultra-fast transactions"
+        paragraph: "Transaction speeds are ultra-fast compared to other coins. Simple Payment Verification (SPV) technology allows average transaction confirmation times to drop to ~5 seconds."
+      development:
+        header: "Active development team with many contributors"
+        paragraph: "The development team is active and always in close contact with the community. You can easily reach the main developers for support or new ideas about Verge."
+      adoption:
+        header: "Ready for mass adoption"
+        paragraph: "Verge offers a wide array of secure wallets for multiple operating systems. The revolutionary Tor Android Wallet offers mobile anonymity, which is a unique feature among privacy-oriented coins."
+      opensource:
+        header: "Decentralized and open-source"
+        paragraph: "Verge is a decentralized currency based on an open-source platform. There is no central control over the coin."
   resources:
     header: "Risorse"
     black_paper: "Black Paper"
     github: "Codice sorgente su Github"
     mining_pools: "Pool di data mining"
     mining_resources: "Risorse di mining"
+    info: "Blockchain Explorer (Verge)"
     blockchain_explorer_prohashing: "Blockchain Explorer (ProHashing)"
     blockchain_explorer_ccminer: "Blockchain Explorer (CCMiner.org)"
   tech_specs:
@@ -38,15 +80,7 @@ info:
     block_time: "<b>Tempo di blocco:</b> 30 secondi"
     rpc_port: "<b>RPC port:</b> 20102"
     p2p_port: "<b>P2P porta:</b> 21102"
-developers:
-  about:
-    header: ""
-    paragraph: ""
-  resources:
-    header: ""
-    github_gui: ""
-    rubygems_howto: ""
-    github_repos: ""
+
 exchanges:
   header: "Ottieni Verge"
   paragraph: "Verge è orgogliosa di essere presente nei seguenti mercati:"
@@ -59,93 +93,411 @@ exchanges:
   cryptopia: "Cryptopia"
   coingather: "CoinGather"
   coinspot: "CoinSpot"
+  blocknet: "Blocknet"
+  exchangedi2p: "ExchangeD.I2P"
+  nexchange: "Nexchange"
+  coinwale: "Coinwale"
+  binance: "Binance"
+  hitbtc: "HitBTC"
+  upbit: "UpBit"
+  changelly: "Changelly"
+  nakamotox: "NakamotoX"
+  coinswitch: "CoinSwitch"
+  coin2001: "Coin2001"
+  cryptobridge: "CryptoBridge"
+  changenow: "ChangeNow"
+  
 wallets:
   header: "Portafogli"
+  info:
+    header: "Info:"
+    message: "Se non stai installando un portafoglio Electrum, puoi velocizzare l'installazione scaricando la blockchain Verge da <a href='https://verge-blockchain.com/' target='_blank'>qui</a>."
   tabs:
     desktop: "Desktop"
     mobile: "Mobile"
     other: "Altro"
-  windows: "Verge Windows Wallet"
-  macosx: "Verge Mac OSX Wallet"
-  android: "Verge Android Wallet"
-  archlinux: "Verge ArchLinux Wallet"
-  centos: "Verge CentOS Wallet"
-  debian: "Verge Debian Wallet"
-  fedora: "Verge Fedora Wallet"
-  web: "Verge Web Wallet"
+  windows: "Portafoglio Verge Windows"
+  macosx: "Portafoglio Verge Mac OSX"
+  android: "Portafoglio Verge Android"
+  archlinux: "Portafoglio Verge ArchLinux"
+  centos: "Portafoglio Verge CentOS"
+  debian: "Portafoglio Verge Debian"
+  fedora: "Portafoglio Verge Fedora"
+  web: "Portafoglio Verge Web"
   web_tor: "Verge TOR Portafoglio Web"
   web_i2P: "Verge i2P Portafoglio Web"
   raspberry_pi: "Verge Raspberry Pi codice sorgente"
-  electrum_linux: "Verge Linux Electrum Wallet"
-  electrum_linux_tor: "Verge TOR Linux Electrum Wallet"
-  electrum_windows: "Verge Windows Electrum Wallet"
-  electrum_windows_tor: "Verge TOR Windows Electrum Wallet"
-  paper: "Orlo Paper Wallet"
+  electrum_linux: "Portafoglio Verge Linux Electrum"
+  electrum_linux_tor: "Portafoglio Verge TOR Linux Electrum"
+  electrum_osx: "Portafoglio Verge OSX Electrum"
+  electrum_osx_tor: "Portafoglio Verge Tor OSX Electrum"
+  electrum_windows: "Portafoglio Verge Windows Electrum"
+  electrum_windows_tor: "Portafoglio Verge TOR Windows Electrum"
+  paper: "Verge Paper Wallet"
   daemon_docker: "Verge Daemon immagine Docker"
   coinomi: "Coinomi portafoglio multi valuta Android"
+  vendors:
+  header: "Venditori del mondo reale che accettano Verge."
+  paragraph: "Tutti i seguenti venditori accettano con orgolio la valuta Verge come metodo di pagamento per i loro beni e servizi."
+  pexpeppers: "PexPeppers"
+  incredebites: "Incredebites"
+  trebaltek: "Trebaltek"
+  renosportsbar: "Reno Sports Bar"
+  alwayshodl: "AlwaysHodl"
+  whiskermen: "WhiskerMen"
+  quantvm: "QuanTVm"
+  vfx: "VFX Learning"
+  cryptovfx: "Crypto VFX"
+  menke: "Menke IT - Service"
+  suzuri: "仮想通貨Verge Japan 公認SHOP"
+  haveaheartkc: "Have A Heart: Dog Rescue and Adoption"
+  illroticbeats: "Illrotic Beats"
+  fbs: "Falmouth Boat Security"
+  effortless: "Effortless.IT"
+  pmc: "Phuket Media Company"
+  meccamino: "Meccamino"
+  apetest: "APE Advisor Prep"
+  morningwish: "Morning Wish"
+  ethminers: "Ethereum Miners"
+  heightcare: "HeightCare"
+  ovpn: "oVPN"
+  #vendor: "rename me"
+  #vendor: "rename me"
+  #vendor: "rename me"
+  #vendor: "rename me"
 roadmap:
-  header: "Road Map"
+  header: "Calendario release Q4"
+  paragraph: "Il calendario delle release viene aggiornato ogni trimestre-"
   blackpaper:
-    header: "\"Black\"Paper"
-    date: "<font color='#08b4e0'>Rilasciato</font> Giugno 4, 2017"
-  electrum_i2P_server_client:
-    header: "Electrum i2p Server/Client"
-    date: "<font color='#08b4e0'>Rilasciato</font> Giugno 4, 2017"
-  electrum_tor_server_client:
-    header: "Electrum TOR Server/Client"
-    date: "<font color='#08b4e0'>Rilasciato</font> Giugno 5, 2017"
-  electrum_binaries:
-    header: "I file binario di Electrum"
-    paragraph: "Binario per i client. Portafoglio Lite facile da utlizzare."
-    date: "<font color='#08b4e0'>Rilasciato</font> Giugno 7, 2017"
-  marketing_campaign:
-    header: "Servizi di crittografia della campagna di marketing"
-    paragraph: "Campagna di annunci con Coinomi iniziata da 1 anno."
-    date: "<font color='#08b4e0'>Rilasciato</font> Giugno 7, 2017"
-  redesign_website:
-    header: "Riprogettazione del sito Web Verge"
-    date: "<font color='#08b4e0'>Rilasciato</font> Giugno 12, 2017"
-  radio:
-    header: "Espansione di Verge Radio"
-    paragraph: "Trasformazione in \"RadioCrypto\" e inclusione nel nucleo portafogli"
-    date: "<font color='#08b4e0'>Rilasciato</font> Giugno 26, 2017"
-  tor_android_wallet:
-    header: "TOR Android Wallet"
-    paragraph: "Android Wallet per SOLI trasferimenti anonimi! (quasi completato)"
-    date: "Luglio, 2017"
-  i2P_android_wallet:
-    header: "i2P Android Wallet"
-    paragraph: "Android Wallet per SOLI trasferimenti anonimi! (quasi completato)"
-    date: "Luglio, 2017"
+    header: "\"Black\" Paper v3.0"
+    date: "<font color='#08b4e0'>Released</font> 4. Giugno 2017"
   core_wallet_release:
-    header: "Nuovo nucleo di rilascio del portafoglio"
-    paragraph: "Aggiunta di nuove funzioni tra cui il controllo della moneta, RingCT, aggiornamento Librerie (openssl, boost, ecc.)"
-    date: "Luglio, 2017"
+    header: "Portafoglio 3.0 Release Parte 1"
+    paragraph: "Miglioramento UI Portafoglio, VISP, Filtri Bloom, Capacità Atomic Swaps"
+    date: "<font color='#08b4e0'>Released</font> 15. Novembre 2017"
+  core_wallet_release_2:
+    header: "Portafoglio 3.0 Release Parte 2"
+    paragraph: "Integrazione con Tor  & Indirizzamento Stealth Opzionale"
+    date: "Q4, 2017"
+  i2P_android_wallet:
+    header: "Portafoglio I2P"
+    paragraph: "Transazioni mobile anonime sulla rete I2P"
+    date: "Q4, 2017"
   rsk_smart_contracts:
-    header: "RSK contratti smart"
-    paragraph: "Per adesso in testnet solo per bitcoin. La data effettiva sarà aggiornata."
-    date: "Luglio, 2017"
-  wallet_ui:
-    header: "Wallet UI overhaul"
-    date: "Luglio, 2017"
+    header: "RSK Smart Contracts"
+    paragraph: "Attualmente in test per i bitcoin. La data dipenderà dagli sviluppi di questi test."
+    date: "Q4/Q1, 2017/2018"
   merchandise_store:
-    header: "E-commerce Negozio Online"
-    paragraph: "Il negozio E-commerce di VERGE avrà tshirt e abbigliamento vario che potrà essere acquistato con XVG e BTC."
-    date: "Luglio, 2017"
+    header: "Negozio online"
+    paragraph: "Abbigliamento e gadgets Verge che possono essere acquistati con XVG e BTC."
+    date: "Q4, 2017"
+  official_mining_pool:
+    header: "Aggiornamento Mining"
+    paragraph: "XVGui Miner, Mining Pool ufficiale, guida Mining"
+    date: "Q4, 2017"
+
+developers:
+  about:
+    header: "Sviluppatori"
+    paragraph: "Scrivere codice è difficile. Noi vogliamo che lavorare su Verge sia facile per tutti, per questo abbiamo creato questo  insieme di tool:"
+  resources:
+    header: "Tool di sviluppo"
+    github_gui: "GitHub Desktop"
+    php: "Libreria PHP per portafoglio Verge"
+    ruby: "Ruby wrapped gem per interagire con il portafoglio Verge"
+    python: "Verge API binding per Python"
+    nodejs: "Client Node.js per Verge"
+    rubygems_howto: "Come installare RubyGems"
+    github_repos: "Le nostre repository GitHub"
+
+contributors:
+  about:
+    header: "Contribuisci"
+    paragraph: "Verge è un software open-source che è constatmente migliorato dai sui differenti contributori. Se vuoi contribuire anche tu, dai un occhio alle <a href='https://github.com/vergecurrency' target='_blank'>repository Github</a> per vedere come potrai fare la differenza!"
+  wallets:
+    verge:
+      header: "Indirizzo portafoglio Verge"
+      address: DDd1pVWr8PPAw1z7DRwoUW6maWh5SsnCcp
+    bitcoin:
+      header: "Indirizzo portafoglio Bitcoin"
+      address: 142r3vCAH3AzABiQjFPmcrSCp6TDzEDuB1
+
+donate:
+  about:
+    header: "Dona per supportare gli sviluppatori"
+    paragraph: "Verge non è una valuta "minata", quindi tutto lo sviluppo è finanziato dalla gentilezza di persone come te!"
+  wallets:
+    verge:
+      header: "Indirizzo portafoglio Verge Wallet"
+      address: DDd1pVWr8PPAw1z7DRwoUW6maWh5SsnCcp
+    bitcoin:
+      header: "Indirizzo portafoglio Bitcoin Wallet"
+      address: 142r3vCAH3AzABiQjFPmcrSCp6TDzEDuB1
+
+exchanges:
+  header: "Ottieni Verge"
+  paragraph: "Verge è orgogliosa di essere quotata sui seguenti mercati:"
+  bittrex: "Bittrex"
+  bitsquare: "BitSquare.io"
+  ccex: "C-Cex"
+  litebit: "Litebit.eu"
+  southxchange: "SouthXchange"
+  novaexchange: "NovaExchange"
+  cryptopia: "Cryptopia"
+  coinspot: "CoinSpot"
+  blocknet: "Blocknet"
+  exchangedi2p: "ExchangeD.I2P"
+  nexchange: "Nexchange"
+  coinwale: "Coinwale"
+  binance: "Binance"
+  hitbtc: "HitBTC"
+  upbit: "UpBit"
+  changelly: "Changelly"
+  nakamotox: "NakamotoX"
+  coinswitch: "CoinSwitch"
+  coin2001: "Coin2001"
+  cryptobridge: "CryptoBridge"
+  changenow: "ChangeNow"
+
 footer:
   social:
-    header: "Community"
-    slack: "Lasco"
+    header: "Social"
+    slack: "Slack"
     facebook: "Facebook"
     twitter: "Twitter"
-    irc: "Chat IRC"
+    irc: "IRC Chat"
     bitcointalk: "BitCoinTalk"
     reddit: "Reddit"
     steam: "Steam"
     telegram: "Telegram"
     verge_radio: "Verge Radio"
     discord: "Verge Discord"
+    email: "Email"
+    linkedin: "LinkedIn"
+    instagram: "Instagram"
+    blog: "Blog"
   tweets:
-    header: "Tweet"
-    by: "Tweet da @vergecurrency"
+    header: "Tweets"
+    by: "Tweets by @vergecurrency"
   copyright: "&copy; 2017 Verge"
+
+contest_page:
+  options:
+    header: "Opzioni"
+    type: "Tipo"
+    animated: "Animato"
+    snapshot: "Snap Shot"
+    width: "Width"
+    height: "Height"
+    filter: "Filter"
+    none: "None"
+    blur: "Blur"
+    sepia: "Sepia"
+    grayscale: "Grayscale"
+    dark: "Dark"
+    contrast: "Contrast"
+    saturate: "Saturate"
+    invert: "Invert"
+    interval: "Interval"
+    secs: "secs"
+    numberofframes: "Number of Frames"
+    frameduration: "Frame Duration"
+  preview:
+    header: "Preview"
+  counter:
+    header: "Contest Has Ended"
+    subheader: "We will be announcing all of the winners on Monday"
+  prizes:
+    header: "Prizes"
+    first:
+      place: "1st"
+      prize: "70,000 coins"
+    second:
+      place: "2nd"
+      prize: "50,000 coins"
+    third:
+      place: "3rd"
+      prize: "35,000 coins"
+    top5:
+      place: "4-5th"
+      prize: "Verge T-Shirt"
+  instructions:
+    header: "Instructions"
+    step1: "Create an <span class='highlight-section'>anonymous</span> GIF of yourself that makes it <span class='highlight-section'>impossible to tell who you are.</span>"
+    step2: "Download your anonymous GIF"
+    step3: "Send a tweet to <a href='https://twitter.com/vergecurrency' target='_blank'>@vergecurrency</a> with your <span class='highlight-section'>anonymous</span> GIF and the hashtag <span class='highlight-section'>#xvgme</span>"
+    step4: "The <span class='highlight-section'>top 5</span> users who get <span class='highlight-section'>the most combined likes and retweets</span> for their Verge GIF tweet will win prizes!"
+  error:
+    platformNotSupported: "Sorry, your browser is not supported. Please use Chrome or Firefox."
+notificationbar:
+  close: "Close"
+  torandroidrelease: "The new Verge Tor Android Wallet is here!"
+faq:
+  tagline: "Frequently Asked Questions"
+  toc:
+    header: "Table of Contents"
+    general:
+      subheader: "Generale"
+      whatisverge:
+        question: "Che cos'è Verge?"
+        answer: "Verge è una crypto valuta nata per la gente e per l'uso giornaliero. Migliora l'originale blockchain Bitcoin e aspira a raggiungerne l'obiettivo iniziale, di dare a individui e organizzazioni un modo veloce, efficiente e decentralizzato di effettuare transazioni dirette, mantenendone la privacy."
+      mission:
+        question: "Qual è la missione di Verge?
+        answer: "La nostra missione è di dare potere alle persone portando le transazioni tramite blockchain nella vita di ogni giorno. La valuta Verge rende possibile effettuare transazioni dirette in modo veloce, efficiente e nel rispetto della privacy. Con Verge, individui e organizzationi hanno un'opzione flessibile per inviare e ricevere pagamenti. Schiacciando un bottone, offriamo utili integrazioni e strumenti che possano permettano di gestire transazioni sia su grande scala tra commercianti che su piccola scala tra privati."
+      createdverge:
+        question: "Quando è stata creata la valuta Verge?"
+        answer: "La valuta Verge è stata creata nel 2014, con il nome di DogeCoinDark. Nel 2016 è stata rinominata Verge."
+      opensource:
+        question: "E' Verge un'organizzatione privata? Come è finanziata?"
+        answer: "No, Verge è al 100% open source e non un'organizzazione privata fondata tramite un ICO o tramite mining. Gli sforzi di sviluppo e marketing sono supportati da centinaia di membri della community."
+      getverge:
+        question: "Come posso ottenere dei Verge?"
+        answer: "Ci sono differenti maniere per ottenere Verge (XVG). Il piu' comune è comprarli su un <a href='https://vergecurrency.com/#exchanges' target='_blank'>exchange</a> supportata. Gli utenti possono anche dare mancie ad altri utenti su piattaforme <a href='https://vergecurrency.com/#social' target='_blank'>social</a> (usando bot ufficiali Verge). Se avete una piattaforma Android, potete anche inviare e ricevere Verge con la vostra <a href='https://play.google.com/store/apps/details?id=com.vergeandroid.wallet' target='_blank'>app</a> porafoglio mobile Android."
+      techdoc:
+        question: "Dove posso trovare documentazione tecnica di Verge?"
+        answer: "Nel <a href='https://github.com/vergecurrency/Verge-Blackpaper/blob/master/Verge-Anonymity-Centric-CryptoCurrency.pdf' target='_blank'>\"Blackpaper\"</a>. Il codice puo' essere trovato su <a href='https://github.com/vergecurrency' target='_blank'>\"github\"</a>."
+      premine:
+        question: "La valuta Verge è stata pre-minata?"
+        answer: "No, Verge non è stato pre-minato. Il team di sviluppo e i contributori acquistano Verge sul mercato come chiunque altro. Un pre-mining è un meccanismo di finanziamento, dove gli sviluppatori di una valuta accumulano un certo montante di crypto valuta su uno specifico indirizzo prima di distribuirlo al mercato."
+      supply:
+        question: "Qual è la quantità totale di valuta Verge?"
+        answer: "La quantità massima è limitata a 16.5 miliardi di XVG"
+      highsupply:
+        question: "Perchè la quantità totale è cosi' alta?"
+        answer: "Verge è creato con lo scopo di permettere pagamenti convenienti per l'uso giornaliero. In opposizione al Bitcoin, non dovrai pagare con decimali di bitcoin. Un'altra ragione è la riduzione del rischio di manipolazione del mercato, rendendolo meno facile controllare una grande porzione della quantità totale."
+      burning:
+        question: "Il team di Verge sta pianificando manovre di deflazione?"
+        answer: "No. Siccome non c'è stato un premining o un ICO, il team non possiede una quantità sufficiente da inflazionare o deflazionare la distribuzione totale. Questo è un altro motivo per avere un alta quantità di valuta in circolazione. Tuttavia, se vuoi pruciare dei Verge, potresti donarne un po' al nostro team ;)!"
+      infaltion:
+        question: "C'è rischio di inflazione?"
+        answer: "No, la quantità in circolazione totale è fissata"
+      transactionfee:
+        question: "Quanto è la commissione per transazione?"
+        answer: "0.1 XVG"
+      transactionspeed:
+        question: "Qual è la velocità di una transazione?"
+        answer: "Dipendentemente dal carico della rete, varia tra 5 e 10 secondi."
+      transactioncap:
+        question: "Qual è la capacità di transazioni per secondo?"
+        answer: "100 transazioni per secondo per il momento. Grazie alla tecnologia RSK il numero crescerà a 2000 transazioni per secondo."
+      maxsupply:
+        question: "Quando sarà raggiunta la quantità in circolazione totale?"
+        answer: "Fra 8 o 10 anni dal 2017."
+      rskactivated:
+        question: "Quando RSK sarà attivato?"
+        answer: "Dopo che la valuta Verge avrà implementato la funzionalità di smart contracts."
+      atomicswaps:
+        question: "Come posso usare Atomic Swaps?"
+        answer: "La capacità di Atomic Swaps è utilizzata per scambiare una crypto valuta con un'altra exchanges decentralizzate (DEX)"
+      vergebusiness:
+        question: "Come posso accettare Verge nel mio business?"
+        answer: "Puoi integrare XVG nel tuo business utilizzando Coinpayments o utilizzando le API esistenti che puoi trovare su Github."
+      vergecurrencyproject:
+        question: "Come posso supportare il progetto Verge?"
+        answer: "Il modo piu' semplice è donare agli sviluppatori. Puoi trovare gli indirizzi XVG e BTC nella sezione 'Dona'. Se vuoi contribuire al progetto nell'area di sviluppo software, marketing digitale, video o grafica, puoi contattarci via mail direttamente su contact@vergecurrency.com."
+      funded:
+        question: "Com'è finanziato lo sviluppo di Verge?"
+        answer: "Verge è un progetto open-source, quindi tutto lo sviluppo è finanziato dalle <a href='https://vergecurrency.com/#donate' target='_blank'>donazioni</a> di sviluppatori e della community. Stiamo anche esplorando metodi alternativi di finanziamento, aprendo ad esempio una sezione <b>Negozio</b> e <b>Mining Pool Multi-Algoritmo</b>."
+      publicledger:
+        question: "Perchè Verge ha un Ledger pubblico?"
+        answer: "Creadiamo che una blockchain debba essere pubblica, in quanto valuta, per diversi motivi, ma soprattutto per proteggere gli utenti della valuta. Con una blockchain pubblica, sei in grado di vedere la distribuzione della moneta e quante persone stanno usando la valuta."
+        answer2: "Sei capace di vedere tutte le transazioni della blockchain, ma non saprai chi le sta effettuando e verso chi le sta indirizzando, e neppure dove gli utenti sono localizzati fisicamente."
+      richlist:
+        question: "Dove posso vedere la lista di ricchi di Verge?"
+        answer: "Puoi vedere la lista dei ricchi <a href='http://vergecurrency.info/richlist' target='_blank'>qui</a> o <a href='https://verge-blockchain.info/richlist' target='_blank'>qui</a>. Se i siti non dovessero funzionare, fatecelo sapere."
+      wheretolearnmore:
+        question: "Dove posso andare per imparare di piu' su Verge?"
+        answer: "Abbiamo differenti piattaforme <a href='#social' target='_blank'>social</a> e siamo molto attivi su Twitter, Telegram, Slack e Discord."
+      roadmap:
+        question: "Dove posso trovare la roadmap di Verge?"
+        answer: "Abbiamo una <a href='#roadmap' target='_blank'>roadmap</a> sul nostro sito che mostra gli sviluppi nei prossimi 3 mesi. Non amiamo mettere deadlines a lungo termine, perchè le priorità e tecnologie cambiano molto velocemente nel mondo delle crypto valute."
+    privacy:
+      subheader: "Privacy"
+      wraithprotocol:
+        question: "Chec cos'è il protocollo Wraith?"
+        answer: "Il Protocollo Wraith Protocol è una tecnologia che consente gli utenti di scegliere tra un ledger pubblico e privato sulla stessa blockchain. Piu' dettagli possono essere trovati nel blog e nel Blackpaper."
+      vergeanon:
+        question: "Perchè usare Verge per anonimità e non un altra crypto?"
+        answer: "I portafogli Verge contengono già integrate le configurazioni Tor and I2P, quindi non c'è nessun bisogno addizionale di setup. Basta scaricare il wallet e puoi iniziare ad effettuare transazioni con il tuo indirizzo IP offuscato!"
+      whytor:
+        question: "Perchè TOR e non semplicemente un VPN?"
+        answer: "Sia TOR che I2P cifrano tutto il traffico di rete in modo tale che un indirizzo IP e relativi dati non possano essere visibili. Anche un VPN (Virtual Private Network) cripta tutta la rete ma devi prima essere sicuro che il provider di VPN non stia registrando le tue attività."
+      vergemasternode:
+        question: "Verge avrà Masternodes?"
+        answer: "No, crediamo che i Masternodes siano una debolezza e centralizzino la rete. Un hacker potrebbe benissimo effettuare attacchi DDOS (Distributed Denial of Service) sui Masternodes, causando il rallentamento della rete."
+      torandroidnoconnection:
+        question: "Perchè vedo "No Connection" sulla mia app Verge Tor per Android?"
+        answer: "Se vedi \"no connection\" sulla schermata principale, apri Orbot app e seleziona \"apps VPN mode\" nel menu in alto a sinistra. Una guida piu' dettagliata puo' essere trovata <a href ='https://medium.com/verge-currency-xvg/how-to-use-verge-tor-adroid-wallet-b3295570085d' target='_blank'>qui</a>."
+    wallets:
+      subheader: "Portafogli"
+      whichwallet:
+        question: "Che portafoglio Verge devo usare?"
+        answer: "Ci sono due tipi di portafogli Verge: QT ed Electrum. For utenti giornalieri, <b>racconmandiamo un portafoglio Electrum</b>."
+      electrum:
+        question: "Che cos'è Electrum?"
+        answer: "<a href='https://electrum.org' target='_blank'>Electrum</a> è un portafoglio Bitcoin lite<a href='https://github.com/spesmilo/electrum' target='_blank'>open-source</a>. Verge ha effettuato un fork del portafoglio Electrum e l'ha aggiornato per farlo funzionare con Verge."
+      electrumwallet:
+        question: "Che cos'è un portafoglio Electrum?"
+        answer: "Un portafoglio Verge Electrum è un portafoglio che è focalizzato sulla velocità e basso utilizzo di risorse. Il portafoglio Electrum usa una tecnologia chiamata <a href='http://docs.electrum.org/en/latest/spv.html' target='_blank'>Simple Payment Verification</a> (SPV), che verifica le transazioni sulla blockchain Verge senza aver beisogno di scaricare l'intera blockchain. La tecnologia SPV permette di far scendere il tempo medio di conferma di una transazione a 5 secondi (invece di 30 secondi per portafogli non ELectrum). Per domande piu' generali su Electrum, visitate la loro pagina <a href='http://docs.electrum.org/en/latest/faq.html' target='_blank'>FAQ</a>."
+      qt:
+        question: "Che cos'è QT?"
+        answer: "<a href='https://www.qt.io' target='_blank'>QT</a> è un'applicazione cross-platform e un framework UI per sviluppatori che usano il C++. Permette agli sviluppatori di scrivere codice in C++ e poi rilasciare i loro software su diverse piattaforme software e hardware. 
+      qtwallet:
+        question: "Che cos'è un portafoglio QT?"
+        answer: "I portafogli QT richiedono che scarichi l'intera<a href='https://verge-blockchain.com/' target='_blank'>blockchain Verge</a> sul tuo computer. In altre parole, il computer deve scaricare un registro di ogni singola transazione Verge. In questo momento, la blockchain Verge pesa 1GB e continuerà a crescere con il numero delle transazioni. Se usi in portafoglio QT, assicurati di avere abbastanza spazio libero."
+        answer2: "Ogni volta che apri un portafoglio QT, il portafoglio sincronizza e scarica gli ultimi dati della blockchain sul tuo computer. Se decidi di usare un portafoglio QT, dovrai usarlo su base regolare, o potrebbe prendere piu' di un'ora (a seconda dell'ultima volta che l'hai aggiornato) per scaricare l'ultimo aggiornamento della blockchain."
+      backup:
+        question: "Come creo un backup del mio portafogilo Electrum?"
+        answer: "Se stai usando un portafoglio Electrum, tutto quello che devi fare è tenere la tua seedphrase di 9 parole al sicuro. Sarai provvisto di seedphrase la prima volta che creerai il tuo portafoglio Verge e potrai accedervi guardando nei settings della tua app (protetti da passwrod). Raccomandiamo di non momorizzare la tua seedphrase in modo elettronico, perchè potrebbe essere rubata. Se qualcuno ruba la tua seedphrase, potrebbe rubare tutti i tuoi Verge."
+      longsync:
+        question: "Il mio portafoglio QT ci mette molto a sincronizzarsi, posso fare qualcosa per velocizzarlo?"
+        answer: "Si, puoi scaricare l'ultima versione della <a href='https://verge-blockchain.com/' target='_blank'>blockchain</a> Verge. Dopo che l'hai scaricata, leggi le <a href='https://verge-blockchain.com/howto' target='_blank'>istruzioni</a>. Dopo aver completato le istruzioni e aver riaperto il portafoglio, lascia al portafoglio di finire la sincronizzazione, che puo' durare fino a un'ora."
+    mining:
+      subheader: "Mining"
+      proof:
+        question: "Verge è POW o POS?"
+        answer: "Verge è al 100% <b>POW</b> (Proof of Work). Crediamo che la POS (Proof of Stake) non sia equa, favorendo gli utenti con piu' denaro, rendendo i ricchi piu' ricchi. Questo è un problema già presente con le valute fiat (eg. Dollaro)."
+      algorithms:
+        question: "Che algoritmi supporta Verge?"
+        answer: "Verge usa supporto di mining multi-algoritmo. Significa che le persone con diversi tipi di attrezzatura di mining sono capaci di minare Verge, che vuol dire piu' sicurezza tramite decentralizzazione e piu' corretta distribuzione di moneta tra la comunità di minatori Verge. Verge è una delle poche crypto valute che supporta 5 diversi tipi di algoritmo di hasing: Scrypt, X17, Lyra2rev2, myr-groestl and blake2s."
+p2p:
+  subheader: "Intro"
+  header: "Che cosa sono soluzioni P2P?"
+  paragraph: "Verge si muove costantemente verso l'adozione di massa. L'integrazione di Verge su piattaforme di messaging e social media è un passo importante per raggiungere questo obiettivo."
+  paragraph2: "Senza intallazione richiesta da entrambe le parti, i gettoni XVG possono essere inviati e ricevuti tramite Twitter, Discord and Telegram. Stiamo lavorando anche su altre piattaforme!"
+  paragraph3: "Altre piattaforme (Slack & Reddit) arriveranno nel futuro."
+  paragraph4: "Usare XVG per dare una mancia a creatori di contenuto, pagare freelancer, doanre a NGOs o sostenere post che ti piacciono! Tutto cio' con bassissime commissioni, transazioni istantanee e nessun setup."
+  paragraph5: "In seguito trovate una serie di guide per capire come utilizzare come usare le varie soluzioni P2P."
+
+p2ptoc:
+  telegramintro: "Nota: il tuo profilo Telegram deve mostare un (@<username>) per far funzionare le mance. Un Username puo' essere impostato nei Settings di Telegram."
+  toc:
+    tagline: "Soluzioni P2P"
+    header: "Sommario"
+    telegram:
+      subheader: "Telegram Bot Manual"
+      bullet1: "1. <b>Add Verge Bot to your channel:</b> search for @VergeX_bot in Telegram, click \"Add to group\" and choose your group channel."
+      bullet2: "2. <b>Display your Verge Telegram address:</b> send \"!address\" as a direct message to the bot."
+      bullet3: "3. <b>Deposit Coins:</b> send XVG coins to the address provided."
+      bullet4: "4. <b>Check Balance:</b> send \"!balance\" as a direct message and see your balance in the reply."
+      bullet5: "5. <b>Send Coins Over Telegram:</b> send \"!tip @<username><amount of XVG>\" in the group chat."
+      bullet6: "6. <b>Withdraw Telegram Wallet Balance:</b> send \"!withdraw <Verge Address>\" as a <b>Direct Message</b> to withdraw your <b>whole</b> wallet balance (minus 2 XVG withdrawal fee) to your Verge address."
+      bullet7: "7. <b>See Terms:</b> send \"!terms\" to display terms and conditions for using Verge Telegram Bot."
+    twitter:
+      subheader: "Twitter Bot Manual"
+      bullet1: "1. <b>Display your verge Twitter address:</b> tweet \"@vergetips address\" to see the Verge address associated with you Twitter account."
+      bullet2: "2. <b>Deposit Coins:</b> send XVG coins to the address provided."
+      bullet3: "3. <b>Check Balance:</b> tweet \"@vergetips balance\" and see your balance in the reply."
+      bullet4: "4. <b>Send Coins Over Twitter:</b> tweet \"@vergetips tip @<username><amount of XVG>\"."
+      bullet4note: "<b>Note:</b> minimum tip amount - 10 XVG"
+      bullet5: "5. <b>Withdraw Twitter Wallet Balance:</b> tweet \"@vergetips withdraw <Verge Address>\" to withdraw your <b>whole</b> wallet balance (minus 2 XVG withdrawal fee) to your Verge address."
+      bullet6: "6. <b>Support Verge:</b> tip \"@vergecurrnecy\" to support the Verge Team!"
+    discord:
+      subheader: "Discord Bot Manual"
+      bullet1: "1. <b>Display your Verge Discord address:</b> send \"@vergebot deposit\" to see the Verge address associated with your Discord account."
+      bullet2: "2. <b>Deposit Coins:</b> send XVG coins to the address provided."
+      bullet3: "3. <b>Check Balance:</b> send \"@vergebot balance\" and see your balance in the reply."
+      bullet4: "4. <b>Send Coins Over Discord:</b> send \"@vergebot tip @<username> <amount of XVG>\"."
+      bullet4note: "<b>Note:</b> minimum tip amount - 10 XVG."
+      bullet5: "5. <b>Withdraw Discord wallet balance:</b> send \"@vergebot withdraw <Verge address>\" to withdraw your <b>whole</b> wallet balance (minus 2 XVG withdrawal fee) to your Verge address."
+      bullet6: "6. <b>Support Verge:</b> tip @vergedev to support the Verge Team!"
